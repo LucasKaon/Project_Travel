@@ -1,0 +1,135 @@
+	/* 	- 	Copyright Lucas - 	*/
+
+	*{
+		margin: 0;
+		padding: 0;
+	}	
+
+	body{
+
+		background-color: #F0F8FF ;
+
+	}
+
+	.marcador{
+		border: 2px solid red;
+	}
+
+	.carousel-custom{
+
+		width: 100%;
+		height: 650px;
+		position: static;
+			
+	}
+
+	.img-carousel{
+
+		width: 100%;
+		height: 645px;
+
+	}
+
+	.div_informacao{
+
+		width: 100%;
+		height: 600px;
+		float: left;
+		background-color: #F8F8FF ;
+		margin-top: 50px;
+
+	}
+
+	.informacao{
+		margin-top: 20px;
+		width: 100%;
+		height: 300px;
+	}
+
+	.img-informacao{
+		margin: auto;
+		width: 100%;
+		height: 250px;
+	}
+
+	.btn-custom{
+		width: 155px;
+		margin: auto;
+	}
+
+	.btn-dark:hover{
+
+		-webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        transform: scale(1.2);
+        transition: 0.8s;
+	}
+
+	#id_transicao{
+
+		clear: both;	/*	- Desativando o FLOAT 	*/
+		width: 100%;
+		height: 400px;
+	}
+
+	/*#img_transicao{
+
+		width: 100%;
+		height: 100%;
+		position: relative;
+
+	}*/
+
+	.background{
+
+		background:url(../img/boreal.jpg);
+		background-size: cover;
+		background-repeat: no-repeat;
+		width: 100%;
+		height: 100%;
+
+	}
+
+	#conteudo_transicao{
+		margin-top: 130px;
+		width: 100%;
+		height: 150px;
+		background-color: gray;
+		position: absolute;
+		opacity: 0.7;
+
+	}
+
+
+
+
+
+
+
+	/*	TIPOGRAFIA	*/
+
+	h5{
+		color: #B0C4DE;
+		opacity: 0.8;
+		text-align: center;
+	}
+
+	h4{
+		text-align: center;
+		font-family: 'Arial';
+		opacity: 0.9;
+	}
+
+	.tip_informacao{
+
+		text-align: center;
+		font-family: 'Arial';
+		font-size: 15px;
+		letter-spacing: 1px;
+		margin-top: 30px;
+	}
+
+	.btn-custom a{
+		font-size: 13px;
+		text-transform: uppercase;
+	}
